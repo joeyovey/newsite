@@ -14,6 +14,12 @@
             <li><a href="whileDowhileloop.php">Simple whileDowhile loop</a></li>
             <li><a href="ifstatement.php">Simple If Statement</a></li>
             <li><a href="switchstatement.php">Simple Switch Statement</a></li>
+            <li><a href="stringmanipulate.php">String Manipulation</a></li>
+            <li><a href="datetimemanipulation.php">Date and Time Manipulation</a></li>
+            <li><a href="userdefinefunc.php">User Define Function</a></li>
+
+
+
 
 
         </ul>

@@ -23,7 +23,7 @@
             echo "Print this";
             $grade++;
 
-        }while ($grade <= 10);
+        }while($grade <= 10);
             # code...
     ?>
     
