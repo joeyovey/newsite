@@ -1,9 +1,14 @@
+<?php 
+    $title = "For loop";
+    include"includes/header.php"; 
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP Primer - FOR LOOP</title>
+    <title><?php echo $title ?></title>
 </head>
 <body>
     <!-- content control -->
@@ -16,5 +21,4 @@
     ?>
 
     
-</body>
-</html>
+<?php require "includes/footer.php" ?>

@@ -1,12 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP Primer - If Statement</title>
-</head>
-<body>
-<h1>Switch Statement</h1>
+<?php 
+    $title = "If Statement";
+    include "includes/header.php"; 
+?>
+
+<h1><?php echo $title ?></h1>
+<?php 
+        $grade = 50;
+        if($grade <= 40){
+            echo "You have passed";
+        }elseif($grade = 50){
+            echo "Congratulation!";
+        }else{
+            echo "You have failed, try again next time";
+        }
+    ?>
     
-</body>
-</html>
+    <?php require "includes/footer.php" ?>

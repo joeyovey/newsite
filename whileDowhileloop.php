@@ -1,12 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP Primer - While/Do-while loop</title>
-</head>
-<body>
-    <h1>While Loop</h1>
+<?php 
+    $title = "While loop";
+    include "includes/header.php";
+ ?>
+
+    <h1><?php echo $title ?></h1>
     <?php 
         $grade = 1;
         //pre-condition
@@ -27,5 +24,5 @@
             # code...
     ?>
     
-</body>
-</html>
+    <?php include "includes/footer.php" ?>
+
